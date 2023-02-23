@@ -2,7 +2,8 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by fizzbuzz
- * but for multiples of three prints Fizz instead of the fizzbuzz and for the multiples of five prints Buzz
+ * but for multiples of three prints Fizz instead of the fizzbuzz
+ * and for the multiples of five prints Buzz
  * Return: Always 0 (succes)
  */
 
@@ -14,19 +15,23 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("Fizz");
-		} else if (i % 5 == 0 && i % 3 != 0)
+			printf(" Fizz");
+		}
+		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf("Buzz");
-		} else if (i % 3 == 0 && i % 5 == 0)
+			printf(" Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("Fizzbuzz");
-		} else if (i == 1)
+			printf(" Fizzbuzz");
+		}
+		else if (i == 1)
 		{
 		printf("%d", i);
-		} else
+		}
+		else
 		{
-		printf("%d", i);
+		printf(" %d", i);
 		}
 	}
 	printf("\n");
