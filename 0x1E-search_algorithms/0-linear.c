@@ -28,7 +28,7 @@ int linear_search(int *array, size_t size, int value)
 		if (array[ui] == value)
 
 			/* Return the index of the value */
-			return (i);
+			return (ui);
 	}
 
 	/* Value not found, return -1 */
